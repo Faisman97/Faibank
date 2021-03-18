@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Faisman Bank</title>
+<link rel="shortcut icon" href="Faisal.ico">
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('timer').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="agile-header">
+				<div class="agileits-contact-info text-right">
+					<ul>
+						<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:Faisalweedy@Gmail.Com">Faisalweedy@Gmail.Com</a></li>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>0813 777 2088</li>
+					</ul>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                                    <h1><a class="navbar-brand" href="index.html">Faisman Bank</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--iris">
+						<ul class="nav navbar-nav menu__list">
+							
+                                                    <li class="menu__item menu__item--current"><a href="Welcome.html" class="menu__link">Welcome</a></li>
+							
+						</ul>
+                                        </nav>
+                                </div>
+</nav>
+			<div class="w3l_banner_info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Make Payments Easier and Faster</h4>
+									<h3>With simple steps for transferring funds from your Faisman account to any other banks, pay bills or buy airtime. Your can also modify your limits on the platform.</h3>
+									<h5>Make Payments Easier and Faster</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>You Can Take Loans</h4>
+									<h3>Can See How Loans Will be Paid But you Have To go to the bank for acceptance or rejection of loans.</h3>
+									<h5>You Can Take Loans</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Keeping You Safe and Secure</h4>
+									<h3>You will get a unique log in username that confirms it’s you, with your one time password (OTP) verification as 2nd level authentication. It’s more than just a link with you and Fidelity.</h3>
+									<h5>Keeping You Safe and Secure</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Sign Up All By Yourself</h4>
+									<h3>Simply sign yourself up with no assistance. Simplified to make your online banking experience seamless. Activating and linking a soft token service on Online banking using the ENTRUST token app.</h3>
+									<h5>Sign Up All By Yourself</h5>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</section>
+				<!-- flexSlider -->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function(){
+							$('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								$('body').removeClass('loading');
+								}
+							  });
+							});
+					</script>
+				<!-- //flexSlider -->
+			</div>		
+		</div>
+	</div>
+<!-- //banner -->
+
+<!-- welcome -->
+<body onload="startTime()">      
+    <h1>Welcome Back</h1>
+<div id="container0">
+    <br>
+    <div id="accountno"><img src="images/profile.png" width="150" height="150" alt="img" float=""/></div>
+    <br>
+    <br>
+    <div id="timer"></div>
+    <br>   
+    <div id="container1">         
+        <div id="accountno"><br><label for="Account Number"><h1>2050574823</h1></label></br></div>
+        <div id="accountlbl"><br><label for="Account Type"><h1>Savings</h1></label><br></br></div>
+    </div>
+    <br>   
+    <div id="container1">         
+        <div id="accountno"><br><label for="Account Number"><h1>₦1,909,039.76</h1></label></br></div>
+        <div id="accountlbl"><br><label for="Account Type"><h1>Faisal Farouk</h1></label><br></br></div>
+    </div>
+    <br>
+    <h6>Transaction</h6>  
+    <div id="container2">           
+    
+    <br>
+    <div id="accountlbl"><input type="text" class="form-control" id="ano" placeholder="Enter Accoount Number" size="45" value="2050574823"></div>
+    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Enter Amount To Send" size="45" value="₦100,000"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountlbl">
+    <select class="form-control" id="Bts">
+    <option value="" disabled selected hidden>Bank To Send</option>
+    <option value="Zenith">Zenith Bank</option>
+    <option value="Fidelity">Fidelity Bank</option>
+    <option value="Eco">Eco Bank</option>
+    <option value="Fcmb">FCMB</option>
+    <option value="uba">UBA Bank</option>
+    <option value="gt">GT Bank</option>  
+    </select>
+    </div>    
+    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Reference" size="45" value="To UBA Yaro"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountmid"><input type="text" class="form-control" id="amts" placeholder="Password" size="45" value="******"></div>
+    <br>
+    <button type="submit" class="btn btn-primary btn-sm btn-block" data-toggle="modal" data-target="#TransactionModal">Transfer</button>
+                <!--Modal-->
+                <div class="modal fade" id="TransactionModal" role="dialog">
+                <div class="modal-dialog">
+                 <!-- Modal content-->
+                <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title" style="color:black;font-family:Arial;">Done!</h2>
+                </div>
+                <div class="modal-body">
+                <p style="color:black;font-family:Arial;" >Sent ₦100,000 to 2050574833.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>          
+                </div>
+                </div>   
+    </div>
+    <br>
+    <h6>AirTime Recharge</h6>  
+    <div id="container2">           
+    
+    <br>
+    <div id="accountlbl"><input type="text" class="form-control" id="ano" placeholder="Number To Send" size="45" value="09055000933"></div>
+    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Enter Amount To Send" size="45" value="₦2,000"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountlbl">
+    <select class="form-control" id="Carrier">
+    <option value="" disabled selected hidden>Select Carrier</option>
+    <option value="Airtel">Airtel</option>
+    <option value="Etisalat">Etisalat</option>
+    <option value="Glo">Glo</option>
+    <option value="MTN">MTN</option>
+    <option value="Ntel">Ntel</option>
+    <option value="Vodafone">Vodafone</option>    
+    </select>
+    </div>    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Reference" value="To My Ntel 09055000933" size="45"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountmid"><input type="text" class="form-control" id="amts" placeholder="Password" value="******"size="45"></div>
+    <br>
+    <button type="submit" class="btn btn-primary btn-sm btn-block" data-toggle="modal" data-target="#AirtimeModal">Transfer</button>
+    <!--Modal-->
+    <div class="modal fade" id="AirtimeModal" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h2 class="modal-title" style="color:black;font-family:Arial;">Done!</h2>
+    </div>
+    <div class="modal-body">
+    <p style="color:black;font-family:Arial;" >Sent ₦2,000 to 09055000933.</p>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>          
+    </div>
+    </div>  
+    
+    </div>
+    <br>
+    <h6>Bill Payment</h6>  
+    <div id="container2">           
+    
+    <br>
+    <div id="accountlbl"><input type="text" class="form-control" id="ano" placeholder="Enter Accoount Number" size="45" value="2050574833"></div>
+    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Enter Amount To Send" size="45" value="₦1,000,000"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountlbl"><input type="text" class="form-control" id="ano" placeholder="Company Name" size="45" value="Faisman LTD"></div>
+    
+    <div id="accountno"><input type="text" class="form-control" id="amts" placeholder="Reference" size="45" value="Contract Bidding"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="accountmid"><input type="text" class="form-control" id="amts" placeholder="Password" size="45" value="******"></div>
+    <br>
+    <button type="submit" class="btn btn-primary btn-sm btn-block" data-toggle="modal" data-target="#BillModal">Transfer</button>
+    <!--Modal-->             
+    <div class="modal fade" id="BillModal" role="dialog">
+    <div class="modal-dialog ">
+    <!-- Modal content-->
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h2 class="modal-title" style="color:black;font-family:Arial;">Done!</h2>
+    </div>
+    <div class="modal-body">
+    <p style="color:black;font-family:Arial;" >Sent ₦1,000,000 to 2050574833 Faisman LTD.</p>
+    <p style="color:black;font-family:Arial;">Reference: Contract Bidding.</p>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>          
+    </div>
+    </div>   
+    </div>
+    
+</div>
+</body>
+<!-- //welcome -->
+<!--client-->			              				
+<!--//client-->
+<!-- what -->
+<!-- //what -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+		
+		
+			<div class="footer-w3-agile">
+				<div class="col-md-6 w3l-footer-top">
+					
+					<div class="footer-agile">
+						<div class="col-md-6 footer-w3-1">
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+							<p>House 45 Road 131 Gwarinpa</p>
+							<p>Abuja Nigeria</p>
+						</div>
+						<div class="col-md-6 footer-w3l-1">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+							<p> 0813 777 2088.</p>
+							<p> 0905 500 0933.</p>
+						</div>
+							<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-social-icons">
+					<h3>Follow Us</h3>
+					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="copy-right-agile">
+				<p>© 2021 Faisman Bank.</p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

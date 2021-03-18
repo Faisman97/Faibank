@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Faisman Bank</title>
+<link rel="shortcut icon" href="Faisal.ico">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+function s(num, val) {
+amount = num * 1; // amount is the num or NaN
+sum = (!num ? 0 : num) * val;  // the sum for that bill or coin
+
+if (isNaN(amount)) { // if the entire is not a number
+
+alert(
+"' " + num + " ' is not a valid entry and that field will "
++ "not be included in the total money calculation."
+);
+
+return 0;
+}
+else
+return sum; // if it is OK, send sum back
+}
+
+function money(form) {
+hun = s(form.hun.value, 100); // Each amount is the returned value
+fif = s(form.fif.value, 50);  // for the amount in the s() function
+twe = s(form.twe.value, 20);
+ten = s(form.ten.value, 10);
+fiv = s(form.fiv.value, 5);
+one = s(form.one.value, 1);
+hlf = s(form.hlf.value, .5);
+qtr = s(form.qtr.value, .25);
+dme = s(form.dme.value, .1);
+nck = s(form.nck.value, .05);
+pny = s(form.pny.value, .01);
+
+// add up all the amounts
+var ttl = hun + fif + twe + ten + fiv
++ one + hlf + qtr + dme + nck + pny;
+
+// rounds total to two decimal places
+
+ttl = "" + ((Math.round(ttl * 100)) / 100);
+
+dec1 = ttl.substring(ttl.length-3, ttl.length-2);
+dec2 = ttl.substring(ttl.length-2, ttl.length-1);
+
+if (dec1 != '.') { // adds trailing zeroes if necessary
+if (dec2 == '.') ttl += "0";
+else ttl += ".00";
+}
+form.total.value = "₦" + ttl; // display total amount
+}
+//  End -->
+</script><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="agile-header">
+				<div class="agileits-contact-info text-right">
+					<ul>
+						<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:Faisalweedy@Gmail.Com">Faisalweedy@Gmail.Com</a></li>
+						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>0813 777 2088</li>
+					</ul>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                                    <h1><a class="navbar-brand" href="index.php">Faisman Bank</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--iris">
+						<ul class="nav navbar-nav menu__list">
+							
+                                                    <li class="menu__item menu__item--current"><a href="MoneyCounter.php" class="menu__link">Money Counter</a></li>
+							
+						</ul>
+                                        </nav>
+                                </div>
+</nav>
+			<div class="w3l_banner_info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Make Payments Easier and Faster</h4>
+									<h3>With simple steps for transferring funds from your Faisman account to any other banks, pay bills or buy airtime. Your can also modify your limits on the platform.</h3>
+									<h5>Make Payments Easier and Faster</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>You Can Take Loans</h4>
+									<h3>Can See How Loans Will be Paid But you Have To go to the bank for acceptance or rejection of loans.</h3>
+									<h5>You Can Take Loans</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Keeping You Safe and Secure</h4>
+									<h3>You will get a unique log in username that confirms it’s you, with your one time password (OTP) verification as 2nd level authentication. It’s more than just a link with you and Fidelity.</h3>
+									<h5>Keeping You Safe and Secure</h5>
+								</div>
+							</li>
+							<li>
+								<div class="wthree_banner_info_grid">
+									<h4>Sign Up All By Yourself</h4>
+									<h3>Simply sign yourself up with no assistance. Simplified to make your online banking experience seamless. Activating and linking a soft token service on Online banking using the ENTRUST token app.</h3>
+									<h5>Sign Up All By Yourself</h5>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</section>
+				<!-- flexSlider -->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+						$(window).load(function(){
+							$('.flexslider').flexslider({
+								animation: "slide",
+								start: function(slider){
+								$('body').removeClass('loading');
+								}
+							  });
+							});
+					</script>
+				<!-- //flexSlider -->
+			</div>		
+		</div>
+	</div>
+<!-- //banner -->
+
+<!-- welcome -->
+<div class="welcome">
+   <div class="container">
+       <center><h3>Money Counter</h3></center>
+        <center>
+<form name=coinform>
+<div class="table-responsive">          
+  <table class="table">
+<tr>
+<td align=center>₦ 100</td>
+<td align=center>₦ 50</td>
+<td align=center>₦ 20</td>
+<td align=center>₦ 10</td>
+<td align=center>₦ 5</td>
+<td align=center>₦ 1</td>
+</tr>
+<tr>
+<td align=center><input type=text name=hun size=3></td>
+<td align=center><input type=text name=fif size=3></td>
+<td align=center><input type=text name=twe size=3></td>
+<td align=center><input type=text name=ten size=3></td>
+<td align=center><input type=text name=fiv size=3></td>
+<td align=center><input type=text name=one size=3></td>
+</tr>
+<tr>
+<td colspan=6> </td>
+</tr>
+<tr>
+<td> </td>
+<td align=center>50 Kobo</td>
+<td align=center>25 Kobo</td>
+<td align=center>10 Kobo</td>
+<td align=center>5 Kobo</td>
+<td align=center>1 Kobo</td>
+</tr>
+<tr>
+<td> </td>
+<td align=center><input type=text name=hlf size=3></td>
+<td align=center><input type=text name=qtr size=3></td>
+<td align=center><input type=text name=dme size=3></td>
+<td align=center><input type=text name=nck size=3></td>
+<td align=center><input type=text name=pny size=3></td>
+</tr>
+<tr>
+<td colspan=5 align=center>
+<input type=button name=calc value="Calculate" onClick="javascript:money(this.form)">
+<input type=text name=total size=10>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</div>
+</div>
+    
+
+
+<!-- //welcome -->
+<!--client-->			              				
+<!--//client-->
+<!-- what -->
+<!-- //what -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+		
+		
+			<div class="footer-w3-agile">
+				<div class="col-md-6 w3l-footer-top">
+					
+					<div class="footer-agile">
+						<div class="col-md-6 footer-w3-1">
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+							<p>House 45 Road 131 Gwarinpa</p>
+							<p>Abuja Nigeria</p>
+						</div>
+						<div class="col-md-6 footer-w3l-1">
+							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+							<p> 0813 777 2088.</p>
+							<p> 0905 500 0933.</p>
+						</div>
+							<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-social-icons">
+					<h3>Follow Us</h3>
+					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="copy-right-agile">
+				<p>© 2021 Faisman Bank.</p>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
